@@ -3,7 +3,7 @@
 Aplicación de ejemplo para gestión de inventario, productos, categorías, movimientos de stock y usuarios.  
 Actualmente usa una "base de datos" en memoria (`lib/data-store.ts`) y autenticación mediante cookie de sesión.
 
----
+----------
 
 ## 📦 Requisitos
 
