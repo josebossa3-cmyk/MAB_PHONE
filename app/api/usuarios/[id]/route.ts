@@ -46,7 +46,7 @@ export async function PUT(
       ...db.usuarios[idx],
       nombre: nombre ?? db.usuarios[idx].nombre,
       email: email ?? db.usuarios[idx].email,
-      password: password || db.usuarios[idx].password,
+      password: password && password.trim() ? password : db.usuarios[idx].password,
       rol: rol ?? db.usuarios[idx].rol,
       activo: activo !== undefined ? activo : db.usuarios[idx].activo,
     }

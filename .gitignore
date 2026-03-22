@@ -1,10 +1,67 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+/yarn.lock
+/package-lock.json
+pnpm-lock.yaml
+
+# Testing
+/coverage
+
+# Next.js
+/.next/
+/out/
+*.bolts
+
+# Production
+/build
+/dist
+
+# Misc
+.DS_Store
+*.pem
+*.env
+*.env.local
+*.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log
+npm-debug.log.*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+lerna-debug.log*
+
+# IDE
+.idea/
+.vscode/*
+!.vscode/extensions.json
+.vscode/*.swp
+.vscode/*.swo
+*~
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+
+# Turbo
+.turbo/
+
+# Database
+*.sqlite
+*.sqlite3
+*.db
+
+# Temporary files
+tmp/
+temp/
+
 # v0 runtime files
 __v0_runtime_loader.js
 __v0_devtools.tsx
 __v0_jsx-dev-runtime.ts
-
-# Common ignores
-node_modules/
-.next/
-.env*.local
-.DS_Store
